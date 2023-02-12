@@ -1,0 +1,33 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a :visited {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.name {
+  font-size: 2em;
+}
+
+nav {
+}
+
+.welcome {
+  text-align: center;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.coverphoto {
+  display: flex;
+  justify-content: center;
+}

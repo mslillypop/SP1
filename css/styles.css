@@ -3,9 +3,8 @@
   text-align: left;
   font-family: monospace;
   box-sizing: border-box;
-  margin: 10px;
-  padding: 0;
   margin: 0;
+  padding: 0;
   max-width: 1440px;
 }
 
@@ -13,7 +12,7 @@ html,
 body {
   background-color: #fff;
   width: 100%;
-  margin-top: 125px;
+  margin-top: 135px;
 }
 
 body {
@@ -97,27 +96,52 @@ nav li:hover {
   flex-direction: column;
   align-items: flex-start;
 }
-.menubar {
-  width: 550px;
-  height: 50px;
-  left: 0px;
-  top: 361px;
-  background-color: #145999;
-  color: white;
-  border-radius: 0px 5px 5px 0px;
-  font-size: 2em;
+
+.indextext {
+  font-size: 1.5em;
   font-weight: bold;
 }
 
+.menubar {
+  background-color: #145999;
+}
+
+.menubar2 {
+  background-color: #00615e;
+}
+
+.menubar,
 .menubar2 {
   width: 550px;
-  height: 50px;
-  left: 10px;
-  top: 361px;
-  background-color: #00615e;
-  color: white;
+  height: 40px;
   border-radius: 0px 5px 5px 0px;
   font-size: 2em;
+  font-weight: bold;
+  color: white;
+  top: 361px;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #566963;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #4d4d4d;
+}
+
+button :hover {
+  background: #707070;
+}
+
+button :active {
+  position: relative;
+  top: 1px;
 }
 
 footer {
@@ -129,10 +153,6 @@ footer {
   height: 115px;
   padding: 75px 60px;
   margin: auto;
-}
-
-button {
-  background-color: #fff;
 }
 
 @media screen and (max-width: 900px) {

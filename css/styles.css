@@ -3,7 +3,7 @@
   text-align: left;
   font-family: monospace;
   box-sizing: border-box;
-  margin: 0;
+  margin: auto;
   padding: 0;
   max-width: 1440px;
 }
@@ -24,13 +24,30 @@ body {
   flex-direction: column;
   padding-left: 25px;
 }
+h3 {
+  font-size: 2em;
+  color: #145999;
+}
 
+h1 {
+  font-size: 3em;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #145999;
+}
 img {
   max-width: 100%;
   width: auto;
   height: auto;
 }
 
+.title {
+  padding-left: 50px;
+  padding-top: 20px;
+}
 a,
 a :visited {
   text-decoration: none;
@@ -40,6 +57,8 @@ a :visited {
 a :hover {
   text-decoration: underline;
 }
+
+/* Header */
 
 header {
   width: 100%;
@@ -70,6 +89,8 @@ nav li:hover {
 .name {
   font-size: 2em;
 }
+
+/* Index */
 
 .welcome {
   text-align: center;
@@ -144,6 +165,15 @@ button :active {
   top: 1px;
 }
 
+/* What's on */
+.exhibitions {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  justify-content: center;
+  align-items: center;
+}
+
 footer {
   display: flex;
   flex-direction: row;
@@ -154,6 +184,8 @@ footer {
   padding: 75px 60px;
   margin: auto;
 }
+
+/* Media Queries */
 
 @media screen and (max-width: 900px) {
   header {

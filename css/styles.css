@@ -121,11 +121,11 @@ nav li:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  max-width: 900px;
 }
 
 .indextext {
   font-size: 1.5em;
-  font-weight: bold;
 }
 
 
@@ -137,8 +137,12 @@ nav li:hover {
   color: #00615e;
 }
 
+.menubar3 {
+  color: #842383;
+}
+
 .menubar,
-.menubar2 {/*
+.menubar2, .menubar3 {/*
   width: 550px;
   height: 40px;
   border-radius: 0px 5px 5px 0px;*/
@@ -187,19 +191,20 @@ button :active {
 }
 
 .contents2 {
-  display: flex;
-  flex-direction: column;
   max-width: 900px;
-  align-items: left;
+  justify-content: left;
 }
 
+.topicon {
+  display: flex;
+  align-items: center;
+}
 .socials {
   color: #145999;
 }
 
 footer {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   background-color: #fff;
@@ -229,12 +234,12 @@ footer {
 
 @media screen and (max-width: 570px) {
   nav li {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
 
   html, body {
-    margin-top: 100px;
+    margin-top: 50px;
   }
   .welcome {
     display: none;
@@ -251,8 +256,6 @@ footer {
 
   .menubar,
   .menubar2 {
-    width: 200px;
-    height: 30px;
     font-size: 1.5em;
   }
 

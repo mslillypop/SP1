@@ -263,4 +263,8 @@ footer {
     padding: 5px;
   }
 
+  .title {
+    padding-left: 25px;
+  }
+
 }

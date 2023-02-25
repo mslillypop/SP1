@@ -15,8 +15,10 @@ body {
   margin-top: 135px;
 }
 
+
 p {
   font-size: 1.2em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -126,6 +128,7 @@ nav li:hover {
 
 .indextext {
   font-size: 1.5em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 

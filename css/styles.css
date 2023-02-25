@@ -260,7 +260,11 @@ footer {
   }
 
   footer {
-    padding: 5px;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: 200px;
   }
 
   .title {

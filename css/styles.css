@@ -157,7 +157,7 @@ button:visited {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
   border-radius: 50px;
   transition: 20ms;
-  transform: translateY(0);
+  /*transform: translateY(0);*/
   cursor: pointer;
 }
 
@@ -169,7 +169,7 @@ button :hover {
   font-weight: bold;
   transition: 20ms;
   padding: 10px 50px;
-  transform: translateY(-0px);
+  /*transform: translateY(-0px);*/
   background-color: #fff;
   color: #000000;
   border: solid 2px #000000;

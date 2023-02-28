@@ -213,6 +213,12 @@ footer {
   padding: 75px 60px;
   margin: auto;
 }
+#menu-checkbox {
+  display: none;
+}
+.fa-solid {
+  display: none;
+}
 
 /* Media Queries */
 
@@ -234,9 +240,34 @@ footer {
 }
 
 @media screen and (max-width: 570px) {
+  header {
+    flex-direction: row;
+  }
+
+  /*hamburger */
+
+  .fa-solid {
+    display: block;
+    padding-right: 20px;
+  }
+  nav {
+    display: none;
+  }
+
+  #menu-checkbox:checked ~ nav {
+    display: block;
+  }
+
   nav li {
-    font-size: 1.1em;
-    font-weight: bold;
+    display: block;
+  }
+
+  nav {
+    position: absolute;
+    background: white;
+    padding: 10px 20px;
+    top: 100px;
+    right: 0px;
   }
 
   html,

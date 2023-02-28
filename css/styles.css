@@ -267,6 +267,11 @@ textarea {
   background: #145999;
 }
 
+.sent {
+  display: flex;
+  flex-direction: column;
+}
+
 #menu-checkbox {
   display: none;
 }

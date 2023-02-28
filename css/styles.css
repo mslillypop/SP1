@@ -96,6 +96,10 @@ nav li:hover {
   font-size: 2em;
 }
 
+.active {
+  text-decoration: underline !important;
+}
+
 /* Index */
 
 .welcome {

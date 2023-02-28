@@ -4,7 +4,7 @@
   font-family: monospace;
   box-sizing: border-box;
   margin: auto;
-  padding: 0;
+  padding: 5px;
   max-width: 1440px;
 }
 
@@ -24,11 +24,13 @@ body {
   margin: 5px auto;
   padding: 5px;
 }
+
 .main {
   display: flex;
   flex-direction: column;
   padding-left: 25px;
 }
+
 h3 {
   font-size: 2em;
   color: #145999;
@@ -107,9 +109,11 @@ nav li:hover {
   font-size: 6em;
   font-weight: bolder;
 }
+
 .welcome2 {
   display: none;
 }
+
 .letsexplore {
   display: flex;
   justify-content: center;
@@ -117,6 +121,7 @@ nav li:hover {
   color: #145999;
   font-weight: bold;
 }
+
 .coverphoto {
   display: flex;
   justify-content: center;
@@ -152,6 +157,7 @@ nav li:hover {
   font-size: 2em;
   font-weight: bold;
 }
+
 /* Button */
 
 button,
@@ -184,6 +190,7 @@ button :active {
 }
 
 /* Content */
+
 .contents {
   display: flex;
   flex-direction: column;
@@ -263,6 +270,7 @@ textarea {
   margin-top: -4px;
   font-weight: 700;
 }
+
 [type="submit"]:hover {
   background: #145999;
 }
@@ -273,9 +281,12 @@ textarea {
   padding-bottom: 20px;
 }
 
+/* Hamburger - hidden */
+
 #menu-checkbox {
   display: none;
 }
+
 .fa-solid {
   display: none;
 }
@@ -284,7 +295,6 @@ textarea {
 
 @media screen and (max-width: 900px) {
   header {
-    display: flex;
     flex-direction: column;
     padding-left: 0;
     padding-right: 0;
@@ -327,6 +337,7 @@ textarea {
   body {
     margin-top: 50px;
   }
+
   .welcome {
     display: none;
   }
@@ -347,7 +358,6 @@ textarea {
 
   footer {
     padding-left: 5px;
-    display: flex;
     flex-direction: column;
     text-align: left;
     height: 200px;

@@ -15,10 +15,7 @@ body {
   margin-top: 135px;
 }
 
-p {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
+/* Paragraphs & Headings */
 
 p,
 .p2,
@@ -26,6 +23,11 @@ p,
   font-size: 1em;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .p2 {
   padding-top: 2px;
   padding-bottom: 2px;
@@ -38,6 +40,7 @@ p,
 .p4 {
   font-size: 1em;
 }
+
 .p4,
 h4 {
   font-weight: bold;
@@ -47,6 +50,21 @@ h4 {
 .p5 {
   font-weight: bold;
 }
+
+h1 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+  color: #145999;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+/* Body / Paddings */
 
 .space {
   padding-bottom: 20px;
@@ -63,19 +81,6 @@ body {
   padding-left: 25px;
 }
 
-h1 {
-  font-size: 3em;
-}
-
-h3 {
-  font-size: 2em;
-  color: #145999;
-}
-
-h4 {
-  font-size: 1.4em;
-}
-
 img {
   max-width: 100%;
   width: auto;
@@ -86,6 +91,7 @@ img {
   padding-left: 50px;
   padding-top: 20px;
 }
+
 a,
 a :visited {
   text-decoration: none;
@@ -207,12 +213,6 @@ a.button:hover {
   background-color: #fff;
   color: #000000;
   border: solid 2px #000000;
-}
-
-/*
-a.button :active {
-  position: relative;
-  top: 1px;
 }
 
 /* Content */
@@ -344,10 +344,7 @@ textarea {
     display: none;
   }
 
-  #menu-checkbox:checked ~ nav {
-    display: block;
-  }
-
+  #menu-checkbox:checked ~ nav,
   nav li {
     display: block;
   }

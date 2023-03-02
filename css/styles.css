@@ -130,10 +130,6 @@ nav li:hover {
   text-decoration: underline;
 }
 
-.name {
-  font-size: 2em;
-}
-
 .active {
   text-decoration: underline !important;
 }
@@ -320,19 +316,28 @@ textarea {
 
 /* Media Queries */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 910px) {
   header {
     flex-direction: column;
     padding-left: 0;
     padding-right: 0;
+    height: 145px;
+  }
+
+  .logo {
+    padding-top: 10px;
   }
 }
 
 @media screen and (max-width: 660px) {
   header {
     flex-direction: row;
+    height: 100px;
   }
 
+  .logo {
+    padding: 0;
+  }
   /*hamburger */
 
   .fa-solid {
